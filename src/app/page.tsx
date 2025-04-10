@@ -51,12 +51,12 @@ export default function Home() {
   useEffect(() => {}, [rankedRecipes]);
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen py-10 bg-background rounded-lg shadow-md">
+    <div className="flex flex-col items-center justify-center min-h-screen py-10 bg-background rounded-lg shadow-md">
       <h1 className="text-3xl font-bold mb-6">Fridge Feast</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-md md:max-w-3xl px-4">
         {/* Ingredients Input */}
-        <Card className="mx-auto">
+        <Card>
           <CardHeader>
             <CardTitle>Ingredients</CardTitle>
             <CardDescription>Enter ingredients, separated by commas.</CardDescription>
