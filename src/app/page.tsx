@@ -56,7 +56,7 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl px-4">
         {/* Ingredients Input */}
-        <Card>
+        <Card className="mx-auto">
           <CardHeader>
             <CardTitle>Ingredients</CardTitle>
             <CardDescription>Enter ingredients, separated by commas.</CardDescription>
